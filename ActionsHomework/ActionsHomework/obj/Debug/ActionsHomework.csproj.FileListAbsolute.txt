@@ -1,0 +1,13 @@
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\chromedriver.exe
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\ActionsHomework.dll
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\ActionsHomework.pdb
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\nunit.framework.dll
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\WebDriver.dll
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\WebDriver.Support.dll
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\bin\Debug\nunit.framework.xml
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\obj\Debug\ActionsHomework.csproj.AssemblyReference.cache
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\obj\Debug\ActionsHomework.csproj.CoreCompileInputs.cache
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\obj\Debug\ActionsHomework.csproj.CopyComplete
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\obj\Debug\ActionsHomework.dll
+C:\Users\titov.ka\Desktop\Learn\Ulearn\Selenium\Practice\ActionsHomework\ActionsHomework\obj\Debug\ActionsHomework.pdb

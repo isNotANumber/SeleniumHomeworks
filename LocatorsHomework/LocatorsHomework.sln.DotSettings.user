@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4eb38d53_002Dba6c_002D4ee1_002D9db0_002D4ca8e926b23c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CookiePolicyAgreeTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.CookiePolicyAgreeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.BookMenuTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.AllBooksTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.AddBookInCartTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.IssueOrderTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.BeginOrderTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::823B8E0B-867D-4797-93CA-CE08793A207C::.NETFramework,Version=v4.8::LocatorsHomework.LabirintSeleniumTests.ChooseCourierDeliveryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
