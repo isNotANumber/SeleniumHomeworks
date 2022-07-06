@@ -45,10 +45,10 @@
         <Reference Include="System.Drawing" />
         <Reference Include="System.Xml" />
         <Reference Include="WebDriver, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-          <HintPath>..\packages\Selenium.WebDriver.4.2.0\lib\net48\WebDriver.dll</HintPath>
+          <HintPath>..\packages\Selenium.WebDriver.4.3.0\lib\net48\WebDriver.dll</HintPath>
         </Reference>
         <Reference Include="WebDriver.Support, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-          <HintPath>..\packages\Selenium.Support.4.2.0\lib\net48\WebDriver.Support.dll</HintPath>
+          <HintPath>..\packages\Selenium.Support.4.3.0\lib\net48\WebDriver.Support.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
@@ -56,12 +56,12 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
       <Content Include="chromedriver.exe">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

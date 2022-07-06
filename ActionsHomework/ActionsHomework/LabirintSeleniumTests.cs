@@ -52,15 +52,12 @@ namespace ActionsHomework
             action = new Actions(driver);
             
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            //var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
         }
 
         [Test]
         public void EndToEndTest()
         {
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
-            
             // Переходим на сайт
             driver.Navigate().GoToUrl("https://www.labirint.ru/");
             
@@ -76,9 +73,7 @@ namespace ActionsHomework
             // Дождаться показа “Все книги”
             var allBooks = driver.FindElement(By.XPath(
                 "//a[contains(@class, 'b-menu-list-title')][contains(@class, 'b-menu-list-title-first')][@href='/books/']"));
-            var allBooksLocator = By.XPath("//a[contains(@class, 'b-menu-list-title')][contains(@class, 'b-menu-list-title-first')][@href='/books/']");
-            wait.Until(ExpectedConditions.ElementIsVisible(allBooksLocator));
-            
+
             // Кликнуть в раскрывшемся списке по ссылке “Все книги”
             allBooks.Click();
             
@@ -90,6 +85,8 @@ namespace ActionsHomework
             addBookInCart.Click();
             
             // Кликнуть по кнопке “Оформить” у первой книги на странице
+            wait.Until(ExpectedConditions.ElementIsVisible(
+                By.XPath("(//a[contains(@class, 'buy-link')])[1]")));
             var issueOrder = driver.FindElement(By.XPath("//a[contains(@class, 'btn-more')][contains(@class, 'buy-link')]"));
             issueOrder.Click();
             
@@ -106,7 +103,6 @@ namespace ActionsHomework
 
             // В открывшемся лайтбоксе в “Населенный пункт” ввести некорректный город
             var deliveryAddressInput = driver.FindElement(By.Id("deliveryAddress"));
-            deliveryAddressInput.Click();
             deliveryAddressInput.Clear();
             deliveryAddressInput.SendKeys("ывюбвабвьава");
             
@@ -123,11 +119,9 @@ namespace ActionsHomework
             deliveryAddressInput.SendKeys("Екатеринбург, Радищева, 31");
             deliveryAddressInput.SendKeys(Keys.Enter);
 
-
-            // var loader = By.XPath("//div[@class='loading']");
-            // wait.Until(ExpectedConditions.ElementIsVisible(loader));
+            
             wait.Until(ExpectedConditions.ElementIsVisible(
-                By.XPath("(//div[@class='delivery--courier-delivery']//li[contains(@class, 'do--list-item')])[1]")));
+                By.XPath("(//div[@class='delivery--courier-delivery']//li[contains(@class, 'do--list-item')])[2]")));
             var deliveryService = driver.FindElement(By.XPath("(//div[@class='delivery--courier-delivery']//li[contains(@class, 'do--list-item')])[1]"));
             deliveryService.Click();
 
